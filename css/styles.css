@@ -458,19 +458,6 @@ button {
 .gallery-item:hover .overlay-background {
   transform: translateY(0);
 }
-.rotated-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 294px;
-  background-color: var(--accent-color);
-  color: var(--background-color);
-  padding: 63px 24px;
-
-  animation: blockRotate 3000ms infinite alternate backwards ease-in-out 1000ms;
-}
-
 .gallery.link {
   padding: 0;
   position: relative;
