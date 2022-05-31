@@ -231,7 +231,7 @@ button {
   letter-spacing: 0.03em;
   padding: 6px 22px;
   min-width: 70px;
-  transition-property: background-color color bax-shadow;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -373,7 +373,7 @@ button {
   justify-content: center;
   border-radius: 50%;
   color: var(--social-color);
-  transition-property: background-color color;
+  transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -403,7 +403,7 @@ button {
   border: 1px solid var(--social-color);
   border-radius: 4px;
   color: var(--social-color);
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
 }
 .permanent-icon {
   fill: currentColor;
@@ -452,10 +452,10 @@ button {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.55;
-  transform: translatey(100%);
+  transform: translatey(101%);
   transition: transform 250ms var(--timing-function);
 }
-.gallery-item:hover .overlay-background {
+.gallery.link:hover .overlay-background {
   transform: translateY(0);
 }
 .gallery.link {
